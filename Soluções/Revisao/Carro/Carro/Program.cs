@@ -13,6 +13,11 @@ namespace ExercicioRevisao
             public string Modelo;
             public double Quilometragem;
             public int Potencia;
+            public string Placa;
+            public string Cor;
+            public string Fabricante;
+            public int Ano;
+
         }
 
         static void Main(string[] args)
@@ -30,6 +35,14 @@ namespace ExercicioRevisao
                 carros[i].Quilometragem = double.Parse(Console.ReadLine());
                 Console.WriteLine("Informe a potência do carro {0}", i + 1);
                 carros[i].Potencia = int.Parse(Console.ReadLine());
+                Console.WriteLine("Informe a placa do carro {0}", i + 1);
+                carros[i].Placa = Console.ReadLine();
+                Console.WriteLine("Informe a cor do carro {0}", i + 1);
+                carros[i].Cor = Console.ReadLine();
+                Console.WriteLine("Informe o fabricante do carro {0}", i + 1);
+                carros[i].Fabricante = Console.ReadLine();
+                Console.WriteLine("Informe o ano do carro {0}", i + 1);
+                carros[i].Ano = int.Parse(Console.ReadLine());
             }
 
             for (int i = 0; i < n; i++)
@@ -55,6 +68,22 @@ namespace ExercicioRevisao
                 classifPot = "Potente";
 
             return String.Format("{0} - {1} - {2}", c.Modelo, classifRodagem, classifPot);
+        }
+
+        public static double CalcularTaxaDeUso(Carro a)
+        {
+            int ano = DateTime.Now.Year;
+            double media;
+            media = a.Quilometragem / (a.Ano - ano);
+            return media;
+        }
+        public static void AtualizarKM(Carro s, double km)
+        {
+            s.Quilometragem = km;
+        }
+        public static void AtualizarCor(Carro b, string colornew)
+        {
+            b.Cor = colornew;
         }
 
     }
