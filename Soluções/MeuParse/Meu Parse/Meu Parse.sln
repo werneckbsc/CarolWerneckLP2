@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "intpaese", "intpaese\intpaese.csproj", "{D8C76813-C523-4618-9E33-53378771145C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meu Parse", "Meu Parse\Meu Parse.csproj", "{5F412C46-1FEA-44B3-BFFF-988CB61CEEB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D8C76813-C523-4618-9E33-53378771145C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D8C76813-C523-4618-9E33-53378771145C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D8C76813-C523-4618-9E33-53378771145C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D8C76813-C523-4618-9E33-53378771145C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F412C46-1FEA-44B3-BFFF-988CB61CEEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F412C46-1FEA-44B3-BFFF-988CB61CEEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F412C46-1FEA-44B3-BFFF-988CB61CEEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F412C46-1FEA-44B3-BFFF-988CB61CEEB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
