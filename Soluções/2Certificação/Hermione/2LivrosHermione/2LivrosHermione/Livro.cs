@@ -4,13 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2Hermione
+namespace _2LivrosHermione
 {
-    class livro
+    class Livro
     {
         public string titulo;
         public double paginas, dias;
-        public double TempoLeituraHoras(int pph)
 
+        public double TempoLeituraHoras(double pph)
+        {
+            double total = paginas / pph;
+            return total;
+        }
     }
 }
